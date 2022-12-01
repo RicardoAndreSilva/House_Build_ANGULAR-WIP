@@ -1,0 +1,59 @@
+<!--Section Nelson-->
+<section id="gallery__nelson" class="gallery__nelson" *ngFor="let ProjectNelson of data ">
+  <h2 class="gallery__title">{{ProjectNelson.title}}</h2>
+  <p class="gallery__text">
+    {{ProjectNelson.text}}
+  </p>
+  <div class="gallery__container">
+    <!--Gallery Left-->
+    <div class="gallery__area">
+      <div class="gallery__content">
+        <div class="gallery__left gallery__position">
+          <a class="gallery__link" href="#">
+            <img [src]="ProjectNelson.img1" alt="Gallery nelson">
+          </a>
+          <span class="gallery__span">{{ProjectNelson.subtitle}}</span>
+        </div>
+      </div>
+    </div>
+    <!--Gallery Middle-->
+    <div class="gallery__area">
+      <div class="gallery__content">
+        <div class="gallery__middle gallery__position">
+          <a class="gallery__link" href="#">
+            <img [src]="ProjectNelson.img2" alt="picture nelson">
+          </a>
+          <span class="gallery__span">{{ProjectNelson.subtitle}}</span>
+        </div>
+        <div class="gallery__middle--bottom gallery__position">
+          <a class="gallery__link" href="#">
+            <img [src]="ProjectNelson.img3" alt="Gallery nelson">
+          </a>
+          <span class="gallery__span">{{ProjectNelson.subtitle}}</span>
+        </div>
+      </div>
+    </div>
+    <!--Gallery Right-->
+    <div class="gallery__area">
+      <div class="gallery__content">
+        <div class="gallery__right gallery__position">
+          <a class="gallery__link" href="#">
+            <img [src]="ProjectNelson.img4" alt="Gallery nelson">
+          </a>
+          <span class="gallery__span">{{ProjectNelson.subtitle}}</span>
+        </div>
+      </div>
+    </div>
+    <!--Gallery Right-->
+    <div class="gallery__area">
+      <div class="gallery__content">
+        <div class="gallery__right gallery__position">
+          <a class="gallery__link" href="#">
+            <img [src]="ProjectNelson.img5" alt="Gallery nelson">
+          </a>
+          <span class="gallery__span">{{ProjectNelson.subtitle}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,65 @@
+<!--Section Grota-->
+<section id="gallery__grota" class="gallery__grota" *ngFor="let ProjectGrota of data ">
+  <h2 class="gallery__title">{{ProjectGrota.title}}</h2>
+  <p class="gallery__text">
+    {{ProjectGrota.text}}
+  </p>
+  <div class="gallery__container">
+    <!--Gallery Left-->
+    <div class="gallery__area">
+      <div class="gallery__content">
+        <div class="gallery__left gallery__position">
+          <picture class="gallery__link">
+            <img [src]="ProjectGrota.img1" alt="Gallery grota">
+          </picture>
+          <span class="gallery__span">{{ProjectGrota.subtitle}}</span>
+        </div>
+        <div class="gallery__left gallery__position">
+          <picture class="gallery__link">
+            <img [src]="ProjectGrota.img2" alt="Gallery grota">
+          </picture>
+          <span class="gallery__span">{{ProjectGrota.subtitle}}</span>
+        </div>
+      </div>
+    </div>
+    <!--Gallery Middle-->
+    <div class="gallery__area">
+      <div class="gallery__content">
+        <div class="gallery__middle gallery__position">
+          <picture class="gallery__link">
+            <img [src]="ProjectGrota.img3" alt="Gallery grota">
+          </picture>
+          <span class="gallery__span">{{ProjectGrota.subtitle}}</span>
+        </div>
+      </div>
+    </div>
+    <!--Gallery Right-->
+    <div class="gallery__area">
+      <div class="gallery__content">
+        <div class="gallery__right gallery__position">
+          <picture class="gallery__link">
+            <img [src]="ProjectGrota.img4" alt="Gallery grota">
+          </picture>
+          <span class="gallery__span">{{ProjectGrota.subtitle}}</span>
+        </div>
+      </div>
+    </div>
+    <!--Gallery Right-->
+    <div class="gallery__area">
+      <div class="gallery__content">
+        <div class="gallery__right gallery__position">
+          <picture class="gallery__link">
+            <img [src]="ProjectGrota.img5" alt="Gallery grota">
+          </picture>
+          <span class="gallery__span">{{ProjectGrota.subtitle}}</span>
+        </div>
+        <div class="gallery__right--right gallery__position">
+          <picture class="gallery__link">
+            <img [src]="ProjectGrota.img6" alt="Gallery grota">
+          </picture>
+          <span class="gallery__span">{{ProjectGrota.subtitle}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

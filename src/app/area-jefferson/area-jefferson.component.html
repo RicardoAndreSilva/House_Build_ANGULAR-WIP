@@ -1,0 +1,59 @@
+<!--Section Jefferson-->
+<section id="gallery__jefferson" class="gallery__jefferson" *ngFor =" let ProjectJefferson of data">
+  <h2 class="gallery__title">{{ProjectJefferson.title}}</h2>
+  <p class="gallery__text">
+    {{ProjectJefferson.text}}
+  </p>
+  <div class="gallery__container">
+    <!--Gallery Left-->
+    <div class="gallery__area">
+      <div class="gallery__content">
+        <div class="gallery__left gallery__position">
+          <picture class="gallery__link">
+            <img [src]="ProjectJefferson.img1" alt="picture nelson">
+          </picture>
+          <span class="gallery__span">{{ProjectJefferson.subtitle}}</span>
+        </div>
+        <div class="gallery__left gallery__position">
+          <picture class="gallery__link">
+            <img [src]="ProjectJefferson.img2" alt="picture nelson">
+          </picture>
+          <span class="gallery__span">{{ProjectJefferson.subtitle}}</span>
+        </div>
+      </div>
+    </div>
+    <!--Gallery Middle-->
+    <div class="gallery__area">
+      <div class="gallery__content">
+        <div class="gallery__middle gallery__position">
+          <picture class="gallery__link">
+            <img [src]="ProjectJefferson.img3" alt="picture nelson">
+          </picture>
+          <span class="gallery__span">{{ProjectJefferson.subtitle}}</span>
+        </div>
+      </div>
+    </div>
+    <!--Gallery Right-->
+    <div class="gallery__area">
+      <div class="gallery__content">
+        <div class="gallery__right gallery__position">
+          <picture class="gallery__link">
+            <img [src]="ProjectJefferson.img4" alt="picture nelson">
+          </picture>
+          <span class="gallery__span">{{ProjectJefferson.subtitle}}</span>
+        </div>
+      </div>
+    </div>
+    <!--Gallery Right-->
+    <div class="gallery__area">
+      <div class="gallery__content">
+        <div class="gallery__right gallery__position">
+          <picture class="gallery__link">
+            <img [src]="ProjectJefferson.img5" alt="picture nelson">
+          </picture>
+          <span class="gallery__span">{{ProjectJefferson.subtitle}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

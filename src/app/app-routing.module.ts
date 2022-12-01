@@ -5,6 +5,7 @@ import {ServicesComponent} from './services/services.component';
 import {ProjectsComponent} from './projects/projects.component';
 
 const routes: Routes = [
+  { path: '', component: IndexComponent },
   { path: 'index', component: IndexComponent},
   { path: 'services', component: ServicesComponent },
   { path: 'projects', component: ProjectsComponent },
